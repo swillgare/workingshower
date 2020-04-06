@@ -1,16 +1,6 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/u6doh6irg4km/public_html/
-    - /bin/cp index.html $DEPLOYPATH
-    - /bin/cp style.css $DEPLOYPATH
-    - /bin/cp script.js $DEPLOYPATH
-    - /bin/cp CNAME	$DEPLOYPATH
-    - /bin/cp Cadillac.html	$DEPLOYPATH
-    - /bin/cp CadillacNew.html $DEPLOYPATH
-    - /bin/cp Freelance.html $DEPLOYPATH
-    - /bin/cp Horizon.html $DEPLOYPATH
-    - /bin/cp IKEA.html $DEPLOYPATH
-    - /bin/cp favicon.ico $DEPLOYPATH
-    - /bin/cp favicon.png $DEPLOYPATH
+    - export DEPLOYPATH=/home/user/public_html/
+    - /bin/cp -R * $DEPLOYPATH
   
