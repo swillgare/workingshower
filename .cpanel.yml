@@ -2,4 +2,4 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/u6doh6irg4km/public_html/
-    - /bin/cp -R workingshower $DEPLOYPATH
+    - /bin/cp -R swillgare/workingshower $DEPLOYPATH
